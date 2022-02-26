@@ -22,6 +22,8 @@ struct ContentView: View {
                 }
             }
             .navigationBarTitle("H4XOR News")
+            
+            //test git xcode
         }
         .onAppear {
             self.networkManager.fetchData()
